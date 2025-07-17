@@ -1,4 +1,5 @@
 const mineflayer = require('mineflayer');
+const PORT = process.env.PORT || 3030
 const config = require('./config.json');
 
 const bot = mineflayer.createBot({
